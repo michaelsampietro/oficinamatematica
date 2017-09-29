@@ -1,10 +1,49 @@
 <html>
-  <head> 
-    <title>Ola </title>
+  <head>
+    <title>Oficina de Matemática</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Teste</h1>
+    <section id="header">
+      <div class="container text-center">
+        <div class="row">
+          <div class="ml-auto d-none d-lg-block esquerda"></div>
+          <h1 class="col-md-12 text-center">1&ordf; oficina de<br/> <strong>matemática</strong></h1>
+          <div class="mr-auto d-none d-lg-block direita"></div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="corpo">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <h1><strong>Inscreva-se na <br> 1ª oficina de matemática</strong></h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulla- mcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse mo- lestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril</p>
+          </div>
+          <div class="col-12 col-sm-6">
+            <form>
+              <div class="form-group">
+                <label for="nome"><p class="lead">Nome</p></label>
+                <input type="text" class="form-control" id="nome" placeholder="Ex: João">
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="email"><p class="lead">E-mail</p></label>
+                <input type="email" class="form-control" id="email" placeholder="email@exemplo.com">
+              </div>
+              <button type="submit" class="btn btn-primary botao-azul float-right">Participar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
-
-
 </html>
